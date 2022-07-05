@@ -1,1 +1,25 @@
 // Заголовки, общие БЄМ блоки и проче...
+.btn {
+	background-color: $main-color;
+	display: inline-block;
+	border-radius: 13px;
+	padding: 8px 40px 8px 40px;
+}
+
+@media (min-width: em(767)) {
+	.btn {
+		transition: all 0.3s ease 0s;
+
+		&:hover {
+			background-color: #26882a;
+		}
+	}
+}
+
+.title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 56px;
+	color: #000;
+	text-align: center;
+}

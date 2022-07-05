@@ -1,0 +1,15 @@
+.promo {
+	padding-top: rem(275);
+	min-height: 100vh;
+	background: url(@img/promoBG.png) 50%/cover no-repeat;
+
+	&__container {}
+
+	&__title {
+		font-size: 48px;
+		font-weight: 700;
+		margin-bottom: 40px;
+	}
+
+	&__link {}
+}
