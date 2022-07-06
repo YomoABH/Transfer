@@ -29,12 +29,20 @@
 	&__item {
 		width: 300px;
 		background: #FFFFFF;
-		border: 1px solid #000000;
+		// border: 1px solid #c2baba;
 		border-radius: 12px;
 		padding: 35px 36px 17px 36px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		transition: all .4s;
+
+		@media (min-width: 768px) {
+			&:hover {
+				border: #FFFFFF;
+				box-shadow: 3px 4px 7px 2px rgba(0, 0, 0, 0.25);
+			}
+		}
 
 		position: relative;
 	}
