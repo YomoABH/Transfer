@@ -1,10 +1,16 @@
 .places {
+	padding: 0px 0px 120px 0px;
 
 	&__container {
 		padding: 0px 40px 0px 40px;
 	}
 
 	&__russia {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	&__apsny {
 		text-align: center;
 	}
 
@@ -27,7 +33,7 @@
 	&__items {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		gap: 0 20px;
+		gap: 20px 20px;
 	}
 
 	&__location {
@@ -98,5 +104,11 @@
 	&__2 {
 		grid-column-start: 3;
 		grid-column-end: 5;
+	}
+
+	&__3 {
+		grid-column-start: 2;
+		grid-column-end: 4;
+
 	}
 }
